@@ -383,7 +383,7 @@ dev.off()
 
 #significance testing for top 2 vars
 # WARNING: THIS CODE CAN TAKE A FEW HOURS TO RUN
-pdf("Output/BART_LGE_Top3_Significance.pdf", onefile = TRUE)
+pdf("Output/BART_LGE_Top2_Significance.pdf", onefile = TRUE)
 par(mar = c(5.1, 4.1, 4.1, 2.1))
 topvars <- c("NT-proBNP","IGFBP-1")
 testresults <- cov_importance_test(bart_machine_lge, covariates = topvars,
