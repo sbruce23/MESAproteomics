@@ -10,4 +10,4 @@ Scott A. Bruce
 January 21, 2023
 
 ## Environment
-R Version 4.2.2 on Windows 11 OS
+R Version 4.2.2 on macOS Monterey with Intel i9 processor
